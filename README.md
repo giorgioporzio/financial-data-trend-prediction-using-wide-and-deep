@@ -16,3 +16,6 @@ from google.colab import files
 if not tf.gfile.Exists(FILE_NAME):
   uploaded = files.upload()
 ```
+## References
+ - The wide and deep model was proposed by Google and it was first introduced by Heng-Tze Cheng et al. Paper can be found [here](https://arxiv.org/pdf/1606.07792.pdf)
+ - The method of predicting financial data trend using a deep learning method was inspired by Ariel Navon and Yosi Keller. Paper can be found [here](https://arxiv.org/pdf/1711.04174.pdf)
